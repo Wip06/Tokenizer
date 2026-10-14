@@ -1,0 +1,12 @@
+node_modules/
+
+# Secrets : à ne jamais commit. Le modèle .env.example, lui, est commit.
+.env
+
+# Fichiers générés par Hardhat
+cache/
+artifacts/
+types/
+coverage/
+
+.DS_Store

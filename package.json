@@ -1,0 +1,31 @@
+{
+  "name": "ycandela-42",
+  "version": "1.0.0",
+  "description": "ycandela-42 (YC42) - token ERC-20 sur Ethereum pour le projet Tokenizer de 42",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test",
+    "check": "hardhat run deployment/check.ts --network sepolia",
+    "deploy:local": "hardhat run deployment/deploy.ts",
+    "deploy": "hardhat run deployment/deploy.ts --network sepolia",
+    "verify": "hardhat verify --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "@types/chai": "^5.2.3",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.19.2",
+    "chai": "^6.3.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^3.19.0",
+    "mocha": "^12.0.3",
+    "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
