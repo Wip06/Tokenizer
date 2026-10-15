@@ -7,6 +7,5 @@ node_modules/
 cache/
 artifacts/
 types/
-coverage/
 
 .DS_Store
