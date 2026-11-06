@@ -1,6 +1,6 @@
 # Guide d'utilisation de YC42
 
-Ce guide explique comment détenir, envoyer et utiliser des YC42, puis comment le Conseil du Babyfoot vote la création de nouveaux jetons. Il suffit de MetaMask et d'Etherscan. Pour les notions de base (wallet, gas, transaction…), voir [notions.md](notions.md).
+Ce guide explique comment détenir, envoyer et utiliser des YC42, puis comment le Conseil du Babyfoot vote la création de nouveaux jetons. Il suffit de MetaMask et d'Etherscan.
 
 Réseau : **Ethereum Sepolia**
 
